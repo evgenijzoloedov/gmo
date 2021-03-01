@@ -1,0 +1,67 @@
+#go_button {
+  color: #af752e;
+}
+
+#go_button:hover {
+  color: #fff;
+}
+
+#header-bg {
+  background: url("logo.jpg");
+  background-size: cover;
+}
+
+#problem .container {
+  background: url("tucker-tangeman.jpg") right top no-repeat;
+  background-size: 600px auto;
+}
+
+@media (max-width: 1200px) {
+  #problem .container {
+    background: none;
+  }
+}
+
+#problem-text {
+  font-size: 50px !important;
+  line-height: initial;
+}
+
+@media (max-width: 1200px) {
+  #problem-text {
+    font-size: 30px !important;
+  }
+}
+
+#solution h3 {
+  line-height: initial;
+}
+
+#about .container {
+  background: url("corina-rainer.jpg") right top no-repeat;
+  background-size: 450px auto;
+}
+
+@media (max-width: 1200px) {
+  #about .container {
+    background: none;
+  }
+}
+
+#about-text {
+  font-size: 50px !important;
+  line-height: initial;
+}
+
+@media (max-width: 1200px) {
+  #about-text {
+    font-size: 30px !important;
+  }
+}
+
+h4 {
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 55px;
+}
+/*# sourceMappingURL=style.css.map */
